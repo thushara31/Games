@@ -25,3 +25,17 @@ h1{
 img{
     width:30%;
 }
+#mycarousel{
+    background-color:#d73d4e;
+}
+#mycarousel img{
+    height:300px;
+    margin-top:35px;
+}
+.carousel-inner p{
+    margin-bottom:15px;
+    margin-top:15px;
+    color:whitesmoke;
+    font-size:22px;
+    
+}

@@ -7,27 +7,52 @@
     <title></title>
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-<section id="apps">
-    <h1>Apps</h1>
-    <div class="line"></div>
-    <iframe width="400" height="600" style="border: 0px;" src="https://studio.code.org/projects/applab/MBQDGRg55aMuWRcLtiMbjpXHEYjIisCmyCPZZ0rhPXg/embed"></iframe>
-    <iframe width="400" height="600" style="border: 0px;" src="https://studio.code.org/projects/applab/A6CW4wVMYqq5glcmwAPL1ZQy9VwyeHdxvRCFOhUFt78/embed"></iframe>
-</section>
-<section id="games">
-    <h2>Games</h2>
-    <div class="line"></div>
-    <a href="https://studio.code.org/projects/gamelab/MDIuGgKGuyq3YeKgPgGBh3gk4Oj7QKP_EXn9vj3va3I" target="_blank"><img src="mygame.png"></a>
-    <a href="https://studio.code.org/projects/gamelab/wByylcc-lAXfVJPHuXWtWo3JuURv-v2F51tB4VjINuE" target="_blank"><img src="carracing.png"></a>
-    
-</section>
-<section id="chatbot">
-    <h3>Chatbot</h3>
-    <div class="line"></div>
-    <iframe allow="microphone;" width="350px" height="500px" src="https://console.dialogflow.com/api-client/demo/embedded/507cdb80-7d68-4ded-97fe-5bc40a2897dd"> </iframe>
-    </section>
+    <div id="container">
+        <section id="apps">
+            <h1>Apps</h1>
+            <div class="line"></div>
+            <iframe width="400" height="600" style="border: 0px;"
+                src="https://studio.code.org/projects/applab/MBQDGRg55aMuWRcLtiMbjpXHEYjIisCmyCPZZ0rhPXg/embed"></iframe>
+            <iframe width="400" height="600" style="border: 0px;"
+                src="https://studio.code.org/projects/applab/A6CW4wVMYqq5glcmwAPL1ZQy9VwyeHdxvRCFOhUFt78/embed"></iframe>
+        </section>
+        <h1>Click on the Games to explore</h1>
+        <div id="mycarousel" class="carousel slide">
+            <center>
+                <div class="carousel-inner">
+                    <div class="item active"><a
+                            href="https://studio.code.org/projects/gamelab/MDIuGgKGuyq3YeKgPgGBh3gk4Oj7QKP_EXn9vj3va3I"
+                            target="_blank"><img src="mygame.png"></a>
+                        <p>Runner</p>
+                    </div>
+                    <div class="item"> <a
+                            href="https://studio.code.org/projects/gamelab/wByylcc-lAXfVJPHuXWtWo3JuURv-v2F51tB4VjINuE"
+                            target="_blank"><img src="carracing.png"></a>
+                        <p>Car Racing</p>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#mycarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#mycarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </center>
+        </div>
+
+        </section>
+        <section id="chatbot">
+            <h3>Chatbot</h3>
+            <div class="line"></div>
+            <iframe allow="microphone;" width="350px" height="500px"
+                src="https://console.dialogflow.com/api-client/demo/embedded/507cdb80-7d68-4ded-97fe-5bc40a2897dd">
+            </iframe>
+        </section>
+    </div>
 </body>
 
 </html>
